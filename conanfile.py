@@ -2,7 +2,7 @@ from conan import ConanFile
 from conan.tools.cmake import cmake_layout, CMakeToolchain, CMakeDeps
 
 class WhatsAppDecryptorConan(ConanFile):
-    name = "Whatsapp Database Decryptor"
+    name = "whatsappcryptdecryptor"
     version = "0.1.0"
 
     settings = "os", "compiler", "build_type", "arch"
