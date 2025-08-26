@@ -1,0 +1,4 @@
+syntax = "proto3";
+message C15IV {
+  bytes IV = 1;   // exactly 16 bytes
+}

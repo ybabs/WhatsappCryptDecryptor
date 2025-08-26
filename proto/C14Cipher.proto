@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+// crypt14 cipher files.
+message C14cipher {
+    bytes cipher_version = 1; // is usually 0001
+    bytes key_version = 2; // Is usually "1"
+    bytes server_salt = 3; // The 32-bytes long server salt
+    bytes google_id = 4; // The 16-bytes long google id salt
+    bytes IV = 5; // The 16-bytes long IV
+}

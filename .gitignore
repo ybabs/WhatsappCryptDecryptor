@@ -1,0 +1,61 @@
+# Build directories (CMake out-of-source builds)
+/build/
+/cmake-build-debug/
+/build*/             # Catches other common build directory names like 'build-release', etc.
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+# Compiled object files
+*.o
+*.lo
+*.slo
+*.gch
+*.pch
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+#CMakeUserPresets.json
+# Also, if you use CLion:
+.idea/                 # CLion project files (user specific)
+CMakeLists.txt.user* # QtCreator/CLion user files
+
+# Conan files
+.conan/               # Local Conan cache and temporary files
+conanbuildinfo.* # Conan generated files (e.g., .cmake, .json)
+conaninfo.txt         # Conan generated file
+conan_toolchain.cmake # Conan generated toolchain file
+conan_deps.cmake      # Another common Conan generated file
+
+# Python virtual environments
+/venv/
+.venv/
+env/                  # Another common name for virtual environments
+.env/
+
+# Python compiled files
+*.pyc
+__pycache__/
+
+# Testing artifacts
+/Testing/             # As per your file list
+test_output/          # Common directory for test outputs
+*.log
+*.xml                 # For test reports like JUnit XML
+
+# Editor/IDE specific files (common ones)
+.vscode/              # VS Code workspace settings (can be useful to track some, ignore others)
+.vs/                  # Visual Studio hidden files
+*.swp                 # Vim swap files
+*~                    # Emacs backup files
+.DS_Store             # macOS specific
+Thumbs.db             # Windows specific
+
+# Miscellaneous
+*.user                # Visual Studio user files
+*.suo                 # Visual Studio solution user options
+.idea/
