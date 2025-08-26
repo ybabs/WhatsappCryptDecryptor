@@ -14,4 +14,4 @@ A decryptor for Whatsapp crypt15 databases and mcrypt1 files written in C++. Hea
 
 # Example usage
 
-See [main.cpp](https://github.com/ybabs//master/src/main.cpp) for example usage 
+See [main.cpp](https://github.com/ybabs/WhatsappCryptDecryptor/blob/main/src/main.cpp) for example usage 
